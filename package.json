@@ -1,0 +1,22 @@
+{
+  "name": "p",
+  "version": "1.0.0",
+  "description": "real time ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "vamshi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "redis": "^4.6.4",
+    "socket.io": "^4.6.0",
+    "socket.io-redis": "^6.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
